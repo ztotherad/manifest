@@ -637,6 +637,7 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+  <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="pr" groups="pdk" />
   <project path="frameworks/base" name="frameworks_base" remote="pr" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/compile/mclinker" name="frameworks_compile_mclinker" remote="pr" groups="pdk" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="pr" groups="pdk-fs" />
