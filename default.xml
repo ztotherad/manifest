@@ -649,6 +649,7 @@
 
   <!-- PR repositories / forks -->
   <project path="prebuilts/clang/host/linux-x86" name="prebuilts_clang_host_linux-x86" remote="pr" groups="pdk" clone-depth="1" />
+  <project path="vendor/pr" name="vendor_pr" remote="pr" />
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
