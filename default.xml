@@ -366,7 +366,6 @@
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" groups="pdk-fs" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/car/services" name="platform/frameworks/opt/car/services" groups="pdk-fs" />
@@ -633,6 +632,7 @@
   <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="pr" groups="pdk" />
   <project path="frameworks/base" name="frameworks_base" remote="pr" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/compile/mclinker" name="frameworks_compile_mclinker" remote="pr" groups="pdk" />
+  <project path="frameworks/native" name="frameworks_native" remote="pr" groups="pdk" />
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="pr" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="pr" groups="pdk-fs" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="pr" groups="pdk-fs" />
